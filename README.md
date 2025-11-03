@@ -22,3 +22,11 @@ public class Faktorial {
         input.close();
     }
 }
+Potongan kode ini digunakan untuk **menghitung faktorial** dari sebuah bilangan bulat positif:
+
+1. Program meminta input bilangan `n`.
+2. Jika `n < 0`, program menampilkan pesan **"Bilangan harus positif!"**.
+3. Jika tidak, program menghitung faktorial dengan perulangan `for` dari 1 sampai `n`, menyimpan hasilnya di variabel `faktorial`.
+4. Setelah selesai, hasil faktorial ditampilkan ke layar.
+5. Scanner ditutup dengan `input.close()`.
+
